@@ -1,0 +1,78 @@
+.website-logo[data-v-72875cd4] {
+    padding: 40px 20px 60px
+}
+
+.website-logo p[data-v-72875cd4] {
+    font-size: 18px;
+    margin-bottom: 33px;
+    font-size: 40px;
+    font-family: DFPYaSongW9-GB;
+    font-weight: 400;
+    color: #545454
+}
+
+.website-logo ul[data-v-72875cd4] {
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.website-logo ul li[data-v-72875cd4] {
+    width: 214px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0 0 9px #dee6eb;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    padding: 20px
+}
+
+.website-logo ul li img[data-v-72875cd4] {
+    width: 100%
+}
+
+.website-logo ul li img[data-v-72875cd4]:last-child {
+    display: none
+}
+
+.website-logo ul li:hover img[data-v-72875cd4]:first-child {
+    display: none
+}
+
+.website-logo ul li:hover img[data-v-72875cd4]:last-child {
+    display: block
+}
+
+@media screen and (max-width: 1250px) {
+    .website-logo ul li[data-v-72875cd4] {
+        width: 180px;
+        height: 90px
+    }
+    .website-logo ul[data-v-72875cd4] {
+        width: 970px
+    }
+}
+
+@media screen and (max-width: 1074px) {
+    .website-logo ul li[data-v-72875cd4] {
+        width: 120px;
+        height: 60px;
+        padding: 10px
+    }
+    .website-logo ul[data-v-72875cd4] {
+        width: 670px
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .website-logo ul[data-v-72875cd4] {
+        width: 268px
+    }
+    .website-logo p[data-v-72875cd4] {
+        font-size: 30px
+    }
+}

@@ -1,0 +1,586 @@
+.nav-btc-info {
+    position: relative;
+    display: block;
+    width: 140px;
+    font-size: 20px;
+    line-height: 42px;
+    margin-right: 10px
+}
+
+.index-nav-left>li>a,
+.index-nav-right>li>a {
+    width: 100% !important;
+    display: block
+}
+
+.mt-2.mt-md-0.nav.navbar-nav.navbar-right.padding-nav.index-nav-right li {
+    margin-right: 20px;
+    font-size: 20px;
+    width: 100px
+}
+
+.lagDashboard {
+    width: 200px !important
+}
+
+.dropdown-menu {
+    min-width: 100px;
+    text-align: center;
+    border: none
+}
+
+.navbar-nav>li>.dropdown-menu {
+    border-radius: 0
+}
+
+.logo-img {
+    margin-top: -5px
+}
+
+@media (min-width: 768px) {
+    .navbar-nav>li>a {
+        text-align: center
+    }
+    .padding-nav {
+        padding: 20px 0
+    }
+}
+
+@media (max-width: 767px) {
+    .logo-img {
+        width: 80px !important;
+        margin-top: -10px
+    }
+    .index_bg_title button img {
+        width: 70px !important
+    }
+    .footer-span {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-top: 4px
+    }
+    .contestNav {
+        margin-left: 0 !important;
+        min-height: 40px;
+        line-height: 40px
+    }
+    .mt-2.mt-md-0.nav.navbar-nav.navbar-right.padding-nav.index-nav-right li {
+        min-height: 40px;
+        line-height: 40px
+    }
+    .dropdown show {
+        height: auto !important
+    }
+    .dropdown-menu {
+        background: transparent
+    }
+}
+
+.index-nav-left>li>a {
+    color: #282828;
+    font-size: 22px
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: transparent
+}
+
+.footer-index {
+    min-height: 50px;
+    background-color: #ff9138;
+    color: #fff;
+    text-align: left;
+    box-sizing: border-box;
+    font-size: 14px;
+    padding: 20px
+}
+
+.footer-a a {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 14px
+}
+
+.footer-a {
+    max-width: 1335px;
+    margin: auto
+}
+
+.index-nav-right>li>a>img {
+    border: 1px solid #eee
+}
+
+@media (max-width:767px) {
+    .index-nav-left>li>a {
+        font-size: 16px;
+        line-height: 40px
+    }
+    .country-ul-index li {
+        text-align: left;
+        margin-top: 16px
+    }
+    .country-ul-index li img {
+        border: 1px solid #efeaea
+    }
+    .country-ul-index {
+        margin-top: -12px
+    }
+    .navbar-dark .mt-2 {
+        margin-top: 0 !important
+    }
+    .navbar-dark .dropdown a {
+        padding-left: 0 !important
+    }
+    .bgwhite .index-nav-right .login-btn {
+        border: 0 !important
+    }
+}
+
+.country-ul-index li {
+    margin-bottom: 6px
+}
+
+.country-ul-index li img {
+    border: 1px solid #efeaea
+}
+
+@font-face {
+    font-family: PingFang;
+    src: url(/assets/ttf/PingFang_Regular-0a003591.ttf);
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: PingFang;
+    src: url(/assets/ttf/PingFang_Bold-72b52747.ttf);
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: din;
+    src: url(/assets/otf/DIN_Regular-2476c4c6.otf);
+    font-weight: 400;
+    font-style: normal
+}
+
+@font-face {
+    font-family: din;
+    src: url(/assets/otf/din-bold-aa121f9b.otf);
+    font-weight: 700;
+    font-style: normal
+}
+
+.coinapayu-footer {
+    background: #43494B
+}
+
+.coinapayu-footer-box {
+    max-width: 1300px;
+    padding: 35px 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.coinapayu-footer-box ul {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    margin: 0;
+    flex-wrap: wrap
+}
+
+.coinapayu-footer-box ul li p {
+    text-align: left;
+    margin: 0;
+    color: #e4e4e4;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 400
+}
+
+.coinapayu-footer-box #more-faucet-list,
+.coinapayu-footer-box #more-staking-list {
+    cursor: pointer;
+    display: inline-block
+}
+
+.coinapayu-footer-box ul li {
+    flex: 1;
+    max-width: 300px;
+    line-height: 25px;
+    min-width: 200px
+}
+
+.coinapayu-footer-box ul li .coinapayu-footer-box-title {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 10px;
+    position: relative
+}
+
+.coinapayu-footer-box ul li .coinapayu-footer-box-title svg {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    color: currentColor;
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+    fill: #1e2329;
+    fill: currentColor;
+    -webkit-flex: none;
+    -ms-flex: none;
+    flex: none;
+    display: none
+}
+
+.coinapayu-footer-box ul li p a {
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 400;
+    color: #e4e4e4
+}
+
+.coinapayu-footer-copyrighted {
+    padding: 20px;
+    margin: 0;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: 400;
+    color: #fff;
+    border-top: 1px solid #4F5456
+}
+
+.coinapayu-footer-community {
+    max-width: 340px
+}
+
+.coinapayu-footer-community-title {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 500;
+    color: #fff
+}
+
+.coinapayu-footer-community-link {
+    margin: 10px 0
+}
+
+.coinapayu-footer-community-link a {
+    margin-right: 22px
+}
+
+.coinapayu-footer-community-link a img {
+    width: 24px;
+    height: 24px
+}
+
+.coinapayu-footer-country {
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 10px
+}
+
+.coinapayu-footer-country-selected {
+    padding: 5px;
+    border: 1px solid #798184;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    color: #e4e4e4;
+    width: 110px;
+    justify-content: space-between
+}
+
+.coinapayu-footer-country-selected div {
+    display: flex
+}
+
+.coinapayu-footer-country-logo {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px 0 0
+}
+
+.coinapayu-footer-country-selected b {
+    width: 10px;
+    height: 7px;
+    background: url(/static/img/down.png) no-repeat center center;
+    background-size: 100% 100%;
+    filter: invert(100%);
+    margin-left: 5px
+}
+
+.coinapayu-footer-country ol {
+    list-style: none;
+    position: absolute;
+    width: 110px;
+    left: 0;
+    top: 38px;
+    border-radius: 2px;
+    background: #2e3435;
+    margin: 0
+}
+
+.coinapayu-footer-country ol li {
+    display: flex;
+    padding: 5px 0 5px 15px;
+    color: #e4e4e4
+}
+
+.coinapayu-footer-country ol li:hover {
+    background-color: #26aeda
+}
+
+.coinapayu-footer-more-faucet,
+.coinapayu-footer-more-staking {
+    background: #2e3435;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    padding: 10px;
+    border-radius: 4px;
+    display: none
+}
+
+.coinapayu-footer-more-faucet p,
+.coinapayu-footer-more-staking p {
+    white-space: nowrap
+}
+
+@media (max-width: 991px) {
+    .coinapayu-footer-box {
+        display: block
+    }
+    .coinapayu-footer-box ul {
+        width: 100%;
+        max-width: 100%;
+        display: block
+    }
+    .coinapayu-footer-box ul li {
+        margin-bottom: 20px
+    }
+    .coinapayu-footer-box-item {
+        display: none
+    }
+    .coinapayu-footer-box ul li .coinapayu-footer-box-title,
+    .coinapayu-footer-community-title {
+        font-size: 16px
+    }
+    .coinapayu-footer-box ul li .coinapayu-footer-box-title .coinapayu-footer-box-add {
+        display: block
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.Kindly-Reminder {
+    text-align: center;
+    color: #545454;
+    margin: 200px auto;
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 400;
+    padding: 20px
+}
+
+.Kindly-Reminder p {
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: 400;
+    color: #333;
+    margin-top: 10px
+}
+
+.navbar-fixed-top {
+    position: static !important;
+    margin-bottom: 0 !important;
+    background: white !important;
+    border: none !important
+}
+
+.bgwhite .contestNav {
+    color: #545454
+}
+
+.bgwhite .contestNav a,
+.bgwhite .index-nav-right li a {
+    color: #545454 !important
+}
+
+.index-nav-right .login-btn {
+    border: 1px solid #ffffff;
+    padding: 0 10px
+}
+
+.bgwhite .index-nav-right .login-btn {
+    border: 1px solid #545454
+}
+
+.fa-align-left {
+    color: #fff !important
+}
+
+.bgwhite .navbar-toggler {
+    border-color: #d0cdcd !important
+}
+
+.bgwhite .fa-align-left {
+    color: #545454 !important
+}
+
+.index-nav-left>li>a {
+    width: 100% !important
+}
+
+.country-ul-index {
+    text-align: center !important
+}
+
+.country-ul-index li {
+    margin-right: 0 !important
+}
+
+.footer-a a i {
+    font-size: 24px;
+    margin: 0 -5px
+}
+
+.index-nav-left>li>a,
+.index-nav-right>li>a {
+    width: 100% !important;
+    display: block;
+    font-family: Lato-Semibold;
+    font-size: 18px
+}
+
+.contestNav {
+    position: relative;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 46px
+}
+
+.contestNav:hover {
+    cursor: pointer
+}
+
+.contests {
+    display: none;
+    position: absolute;
+    left: 165%;
+    top: 30px;
+    width: 325%;
+    transform: translate(-50%);
+    background: white;
+    box-shadow: 0 0 8px -5px #616161;
+    font-size: 16px;
+    transition: .3s ease;
+    z-index: 10000
+}
+
+.contestNav:hover .contests {
+    display: block
+}
+
+.contests a {
+    padding: 12px 0 12px 20px;
+    display: block;
+    transition: .3s ease;
+    font-weight: 400
+}
+
+.lagRegister {
+    width: 180px !important
+}
+
+.contests a:hover {
+    background: #e9faff
+}
+
+.index-header-faucet {
+    font-size: 18px;
+    font-family: Arial;
+    font-weight: 400;
+    color: #333;
+    display: flex;
+    align-items: center
+}
+
+.index-header-faucet span {
+    margin: 0 6px 0 10px
+}
+
+.index-header-faucet img {
+    width: 20px
+}
+
+@media screen and (max-width: 995px) {
+    .contestNav {
+        margin-left: 15px;
+        margin-right: 5px;
+        font-size: 16px
+    }
+    .mt-2.mt-md-0.nav.navbar-nav.navbar-right.padding-nav.index-nav-right li a {
+        font-size: 16px
+    }
+    .contestNav a {
+        font-size: 16px !important
+    }
+    .dropdown a {
+        width: 50px
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .contestNav {
+        font-size: 16px
+    }
+    .index-nav-right .login-btn {
+        padding: 0;
+        border: 0px solid #545454 !important
+    }
+    .contests {
+        position: static;
+        width: 60%;
+        left: 0%;
+        transform: translate(0);
+        text-align: left;
+        background: transparent
+    }
+    .contests a {
+        display: block;
+        padding: 0 0 0 10px;
+        color: #fff !important
+    }
+    .footer-a a {
+        padding-bottom: 5px
+    }
+    #navbarCollapse {
+        background: rgba(0, 0, 0, .8);
+        padding: 0 0 10px 10px
+    }
+    .bgwhite #navbarCollapse {
+        background: rgba(255, 255, 255, 1)
+    }
+}
